@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url("fonts/helveticaneue-medium.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url("fonts/helveticaneuebold.woff");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Helvetica';
+  background-color: black;
+}
+
+h1 {
+  background-image: linear-gradient(54deg, #62acc0,  #ca757f 92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin: 32px 0 0 0;
+  font-size: 5em;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
